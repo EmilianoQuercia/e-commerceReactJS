@@ -1,15 +1,16 @@
-
+import { Link } from "react-router-dom";
 
 const Dropdown = () => {
     return (
         <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle seccionesColor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-link dropdown-toggle seccionesColor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PRODUCTOS
-            </a>
+            </li>
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Consolas</a></li>
-                <li><a className="dropdown-item" href="#">Joystick</a></li>
-                <li><a className="dropdown-item" href="#">Juegos</a></li>
+                <li><Link className="dropdown-item" to='/category/1'>Consolas</Link></li>
+                <li><Link className="dropdown-item" to='/category/2'>Joystick</Link></li>
+                <li><Link className="dropdown-item" to='/category/3'>Juegos</Link></li>
+                <li><Link className="dropdown-item" to='/category/4'>Accesorios</Link></li>
             </ul>
         </li>
     );
