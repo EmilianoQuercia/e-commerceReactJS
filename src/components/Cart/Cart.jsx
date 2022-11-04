@@ -3,7 +3,7 @@ const Cart = () =>{
 
     return(
         
-        <h1>Carrito</h1>
+        <h1 style={{color:"white"}}>Carrito</h1>
     )
 }
 

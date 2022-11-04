@@ -13,7 +13,7 @@ const ItemListContainer = () => {
   useEffect(() => {
     if (category){
       queryBdd('../Data/bbdd.json').then(product => {
-        const productosFiltrados = product.filter(prod => prod.category === Number(category))
+        const productosFiltrados = product.filter(prod => prod.category === category)
         const cardProduct = <ItemList product = {productosFiltrados}/>
         
         setProduct(cardProduct)
