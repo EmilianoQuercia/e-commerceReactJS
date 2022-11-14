@@ -1,22 +1,13 @@
 import {useState} from 'react';
 import './itemCount.css'
 
-const ItemCount = () => {
+const ItemCount = ({stock, on}) => {
     const [count, setCount] = useState(1)
 
-    const modificarContador = (operacion) =>{
-        if (operacion === '+'){
-            if (count < 10){
-                setCount(count + 1)
-            }
-        }else{
-            if (count>1){
-                setCount(count - 1)
-            }
-        }
-    }
+    const add = () => count < stock && setCount(count + 1)
+    const subtract = () => count > 1 && setCount(count - 1)
 
-    const agregarProducto = (count) =>{
+    const addProduct = (count) =>{
         alert('Se agregaron al carrito '+ count + ' productos')
     } 
 
@@ -24,11 +15,11 @@ const ItemCount = () => {
         <>
             <div className='d-flex flex-column contenedor m-3' >
                 <div>
-                    <button onClick={()=>{modificarContador('+')}} className='btn btn-secondary mx-3'>+</button>
+                    <button onClick={add} className='btn btn-secondary mx-3'>+</button>
                     {count}
-                    <button onClick={()=>{modificarContador('-')}} className='btn btn-secondary mx-3'>-</button>
+                    <button onClick={subtract} className='btn btn-secondary mx-3'>-</button>
                 </div>   
-                <button onClick={()=>{agregarProducto(count)}} className='btn btn-secondary m-3'>Agregar al Carrito</button>
+                <button onClick={()=>{addProduct(count)}} className='btn btn-secondary m-3'>Agregar al Carrito</button>
             </div>
         </>   
     );

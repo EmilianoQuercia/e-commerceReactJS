@@ -5,6 +5,7 @@ import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom';
 
 
+
 const ItemListContainer = () => {
 
   const [product, setProduct] = useState([])
@@ -15,7 +16,6 @@ const ItemListContainer = () => {
       queryBdd('../Data/bbdd.json').then(product => {
         const productosFiltrados = product.filter(prod => prod.category === category)
         const cardProduct = <ItemList product = {productosFiltrados}/>
-        
         setProduct(cardProduct)
       })
     }else{
@@ -28,7 +28,7 @@ const ItemListContainer = () => {
   
   return(
     
-        <div className="row container-fluid">
+        <div className="row container-fluid d-flex justify-content-center">
             {product}    
         </div>
    

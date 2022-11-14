@@ -1,9 +1,10 @@
+import CheckOut from "../CheckOut/CheckOut"
 
 const Cart = () =>{
 
     return(
         
-        <h1 style={{color:"white"}}>Carrito</h1>
+        <CheckOut/>
     )
 }
 

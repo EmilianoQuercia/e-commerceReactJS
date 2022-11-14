@@ -17,9 +17,6 @@ const Navbar = () => {
             <li className="nav-item ">
               <Link className="seccionesColor nav-link " to='/' >INICIO</Link>
             </li>
-            {/* <li className="nav-item">
-                <a className="seccionesColor nav-link" href="#">TIENDA</a>
-            </li>     */}
                 <Dropdown/>
             </ul>
             <CartWidget/>
