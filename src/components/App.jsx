@@ -7,6 +7,7 @@ import Navbar from './Navbar/Navbar';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
+import CheckOut from './CheckOut/CheckOut';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
                     <Route path='/Item/:id' element={<ItemDetailContainer/>}/>
                     <Route path='/category/:category' element={<ItemListContainer/>}/>
                     <Route path='/Cart' element={<Cart/>}/>
+                    <Route path='/checkout' element={<CheckOut/>}/>
                   </Routes>
                 </CartContextProvider>
               </BrowserRouter>

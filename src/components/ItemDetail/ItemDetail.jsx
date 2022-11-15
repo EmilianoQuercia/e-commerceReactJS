@@ -1,7 +1,16 @@
+import { useContext } from "react";
+import { CartContext } from "../../Context/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
 import './itemDetail.css'
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({product}) =>{
+
+    const {addItem} = useContext(CartContext)
+
+    const onAdd = (count) =>{
+        addItem(product, count)
+    }
 
     return(
         <>
@@ -13,7 +22,8 @@ const ItemDetail = ({product}) =>{
                     <h5 className="card-title">{product.name}</h5>
                         <p className="card-text">Precio: ${product.price}</p>
                     <p className="card-text">Stock: {product.stock}</p>
-                    <ItemCount stock={product.stock}/>
+                    <ItemCount stock={product.stock} onAdd={onAdd}/>
+                    <Link to={'/checkout'}><button className="btn btn-success">Finalizar Compra</button></Link> 
                 </div>
             </div>
             <div className="descDetail">

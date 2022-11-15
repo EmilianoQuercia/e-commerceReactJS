@@ -24,13 +24,13 @@ const CartContextProvider = (props) => {
             setCart([...cart, newProduct])
         }
     }
-
+    
     const clear = () =>{
         return setCart([]);
     }
 
     const removeItem = (id) =>{
-        return setCart(cart.filter(prod => prod.id !== id))
+            return setCart(cart.filter(prod => prod.id !== id))
     }
 
     const getItemQuantity = () =>{

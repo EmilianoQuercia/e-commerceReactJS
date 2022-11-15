@@ -1,7 +1,11 @@
 import React from 'react';
 import './checkOut.css'
+import { CartContext } from '../../Context/CartContext';
+import { useContext } from 'react';
 
 const CheckOut = () => {
+
+    const {clear} = useContext(CartContext)
 
     const formInput = React.useRef()
 
@@ -35,7 +39,7 @@ const CheckOut = () => {
                     <label htmlFor="tel" className="form-label">Telefono</label>
                     <input type="number" className="form-control" name='tel' />
                 </div>
-                <button type="submit" className="btn btn-secondary btn-dark">Finalizar Compra</button>
+                <button type="submit" onClick={clear} className="btn btn-success">Finalizar Compra</button>
             </form>
         </div>
     );

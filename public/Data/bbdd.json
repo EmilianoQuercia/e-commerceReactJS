@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "XBOX SERIES S",
-        "price": 139.999,
+        "price": 139999,
         "description": "Experimenta la velocidad y el rendimiento de una consola totalmente digital de próxima generación a un precio accesible. Empieza con una biblioteca instantánea de más de 100 juegos de alta calidad, incluidos todos los títulos nuevos de Xbox Game Studios como Halo Infinite el día de su lanzamiento, cuando agregues Xbox Game Pass Ultimate. Alterna sin problemas entre varios juegos en un instante con Quick Resume. En el corazón de la Serie S se encuentra la Arquitectura Xbox Velocity, que combina un SSD personalizado con un software integrado para un juego más rápido y optimizado con tiempos de carga significativamente reducidos. ",
         "img": "xBox.jpg",
         "category": "consolas",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "PLAYSTATION 5 STANDARD",
-        "price": 359.999,
+        "price": 359999,
         "description": "Experimentá una carga increíblemente rápida con un SSD de ultra alta velocidad, inmersión más profunda con soporte para retroalimentación háptica, disparadores adaptativos y audio 3D, y una nueva generación de increíbles juegos de PlayStation®. ",
         "img": "ps5-standard.jpg",
         "category": "consolas",
@@ -21,7 +21,7 @@
     {
         "id": 3,
         "name": "NINTENDO SWITCH NEON BLUE Y NEON RED",
-        "price": 164.999,
+        "price": 164999,
         "description": "Tres modos en uno. La consola Nintendo Switch está diseñada para cualquier estilo de vida, transformándose rápidamente de una consola casera a una consola portátil. ",
         "img": "nintendo-switch.jpg",
         "category": "consolas",
@@ -30,7 +30,7 @@
     {
         "id": 4,
         "name": "JOYSTICK PS5 DUALSENSE MIDNIGHT BLACK",
-        "price": 38.999,
+        "price": 38999,
         "description": "El control inalámbrico DualSense™ Midnight Black ofrece retroalimentación háptica inmersiva, gatillos adaptativos dinámicos y un micrófono incorporado, todo integrado en un diseño icónico y cómodo. Encienda sus noches de juego en su consola PS5 ™ con el controlador inalámbrico DualSense ™ Midnight Black.Como parte de una nueva línea de colores con temática de galaxias, este elegante diseño se inspira en cómo vemos las maravillas del espacio a través del cielo nocturno, con sutiles tonos de negro y detalles en gris claro. Dale vida a los mundos de los juegos o siente tus acciones en el juego y el entorno simulado a través de la retroalimentación háptica o Experimenta diferentes fuerzas y tensiones a.l alcance de tu mano con disparadores adaptables. ",
         "img": "joy-ps4.jpg",
         "category": "joystick",
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "name": "FIFA 23 PS4",
-        "price": 24.999,
+        "price": 24999,
         "description": "EA SPORTS™ FIFA 23 lleva El Juego de Todos al campo con los torneos de la Copa Mundial de la FIFA™ masculina y femenina, la incorporación de clubes femeninos y nuevas formas de jugar tus modos favoritos. Los avances en la tecnología HyperMotion2 proporcionan aún más acción y realismo al campo de juego en PS5. Gracias al doble de captura de movimientos reales, ahora hay más animación de fútbol que nunca en cada partido. ",
         "img": "fifa23-ps4.jpg",
         "category": "juegos",
@@ -48,7 +48,7 @@
     {
         "id": 6,
         "name": "JUEGO PS4 HITS - RATCHET & CLANK",
-        "price": 4.399,
+        "price": 4399,
         "description": "Revive la apasionante historia de origen de esta pareja valerosa con una narrativa fresca y más profunda. Habrá más acción, nuevas batallas contra jefes, imágenes espectaculares y vívidas interpretaciones en esta aventura completamente localizada. Basada en elementos del Ratchet & Clank original (PS2™), esta versión incluye numerosos planetas, una nueva jugabilidad para Clank, nuevas secuencias de vuelo y mucho más. Todo con imágenes completamente nuevas diseñadas para usar el poder de PS4. Las funciones en línea requieren una cuenta y están sujetas a los términos de servicio y a la correspondiente política de privacidad (visita playstationnetwork.com para consultar los términos de servicio y las correspondientes políticas de privacidad de tu país). El software está sujeto a licencia y garantía limitada (us.playstation.com/softwarelicense/sp).",
         "img": "ratchet-ps4.jpg",
         "category": "juegos",
@@ -57,7 +57,7 @@
     {
         "id": 7,
         "name": "JUEGO PS4 SPIDERMAN",
-        "price": 7.699,
+        "price": 7699,
         "description": "Explora un capítulo nuevo del universo de Marvel s Spider-Man en la piel de un curtido Peter Parker. Protagonizado por uno de los superhéroes más emblemáticos del mundo, Marvel s Spider-Man presenta las habilidades acrobáticas, la improvisación y las telarañas que caracterizan al trepamuros, y añade mecánicas jamás vistas en un juego de Spider-Man. Desde el parkour hasta las interacciones según el entorno, pasando por el nuevo sistema de combate y una acción espectacular, jugarás con Spider-Man como nunca antes has hecho hasta ahora. SON-233564-NP",
         "img": "spider-ps4.jpg",
         "category": "juegos",
@@ -66,7 +66,7 @@
     {
         "id": 8,
         "name": "JUEGO PS5 - UNCHARTED LEGACY OF THIEVES COLLECTION",
-        "price": 19.999,
+        "price": 19999,
         "description": "Busca tu legado y deja tu marca en el mapa en UNCHARTED: Legacy of Thieves Collection. Disfruta de los escenarios de acción cinematográfica y de la emocionante experiencia de juego de alto impacto de la icónica franquicia de Naughty Dog.",
         "img": "uncharted-ps5.jpg",
         "category": "juegos",
@@ -75,7 +75,7 @@
     {
         "id": 9,
         "name": "Consola PlayStation 4 1TB - Mega Pack",
-        "price": 129.999,
+        "price": 129999,
         "description": "El diseño nuevo y delgado de la consola PlayStation®4 te transporta a viajes extraordinarios a traves de mundos de juegos nuevos y atrapantes, y te lleva a una comunidad de juegos muy unida. La consola PlayStation® 4, ahora mas liviana y mas delgada, tiene un disco duro de 1 TB para que disfrutes los mejores juegos y programas de television, tu musica favorita y mucho mas. El paquete PlayStation MEGA PACK ofrece juegos increibles, para un entretenimiento sin fin con poderosos graficos y alta velocidad, personalizacin inteligente, capacidades sociales sumamente integradas e innovadoras funciones de pantalla secundaria. Combina contenidos sin precedentes, experiencias de juego atrapantes, todas tus aplicaciones de entretenimiento digital favoritas y caracteristicas exclusivas de PlayStation. PS4 se centra en los jugadores y les permite jugar cuando, donde y como lo deseen. PS4 permite a los mejores desarrolladores de juegos del mundo liberar su creatividad y llevar los Ii mites de la experiencia de juego a nuevos niveles con un sistema que se adapta espedficamente a sus necesidades. Has llegado al sitio correcto. Estos exclusivos juegos te llevaran a viajes increibles, desde los propuestos por desarrolladores independientes aclamados por la critica hasta los exitos galardonados de la AAA.  Contiene los juegos Ghost of Tsushima, God of war y Ratchet & Clank.",
         "img": "ps4.jpg",
         "category": "consolas",
@@ -84,7 +84,7 @@
     {
         "id": 10,
         "name": "Enhanced Wired Controller Super Mario Bros PowerA Para Nintendo Switch",
-        "price": 16.199,
+        "price": 16199,
         "description": "Diseño de Super Mario de edición especial. Forma ergonómica del controlador con diseño de botones de Nintendo Switch. Cable USB desmontable de 9.8 ft con correa de velcro. Producto oficial para Nintendo Switch",
         "img": "joy-mario-switch.jpg",
         "category": "joystick",
@@ -93,7 +93,7 @@
     {
         "id": 11,
         "name": "Nintendo Switch Mario Tennis Aces",
-        "price": 18.499,
+        "price": 18499,
         "description": "Eleva tu juego con velocidad etérea y golpes dirigidos. Desata un arsenal de golpes y tácticas en batallas de tenis con tus amigos, tu familia y tus personajes favoritos del Reino Champiñón. Ya sea jugando en modo local*, en línea** o usando controles por movimiento, ¡el peloteo será intenso! En el modo Aventura prueba nuevas formas de jugar tenis en una serie de misiones, combates contra jefes ¡y más! Completa misiones y batallas contra jefes en el modo Aventura mientras dominas los controles. Pon a prueba tus habilidades en partidas individuales o dobles con hasta 4 jugadores en modo multijugador local* o en línea**, y hasta en torneos que te permiten desafiar a la consola. Tus rivales intentarán bloquearte, pero si fallan, sus raquetas sufrirán daño y se romperán en tres golpes. Carga tu energía y úsala para lograr grandes proezas, ¡como moverte tan rápido que el mundo se desacelera, o apuntar en primera persona para lanzar un poderoso golpe que elimine a tu oponente!",
         "img":"mario-tenis-switch.jpg",
         "category": "juegos",
@@ -102,7 +102,7 @@
     {
         "id": 12,
         "name": "Consola Xbox Series X 1TB",
-        "price": 239.499,
+        "price": 239499,
         "description": "LA XBOX MÁS RÁPIDA Y MÁS POTENTE DE LA HISTORIA OPTIMIZADO PARA SERIES X|S Los juegos creados con el kit de desarrollo de Xbox Series X|S cuentan con tiempos de carga significativamente reducidos y gráficos impresionantes de hasta 120 FPS. CONSÍGUELO UNA VEZ Con Entrega inteligente, puedes comprar un juego compatible una vez y siempre tener la mejor versión disponible para cualquier consola en la que juegues. ¡A JUGAR! Desde aventuras futuras hasta los juegos del momento y los títulos clásicos: miles de juegos favoritos de cuatro generaciones de Xbox se ven y se juegan mejor en la Xbox Series X. 12 TERAFLOPS DE POTENCIA Los 12 teraflops de potencia de procesamiento alojados en el sistema en un chip (SOC) funcionan con las arquitecturas Zen 2 y RDNA 2 de AMD para crear mundos que te dejarán embelesado. MEJOR ASPECTO. MEJOR JUEGO Equipado con las arquitecturas Zen 2 y RDNA 2 de AMD, el DirectX Ray Tracing ofrece una iluminación, sombras y reflejos precisos y realistas para crear mundos dinámicos y vivos. ESCUCHA... ESTÁS RODEADO El sonido espacial 3D es la última evolución de la tecnología de audio, y utiliza algoritmos avanzados para crear mundos envolventes y realistas que te colocan en el centro de la experiencia. Juegos en auténtico 4K La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 120 FPS con la explosión visual que ofrece HDR. Sumérgete con personajes más nítidos, mundos más brillantes y detalles imposibles con auténtico 4K.",
         "img":"xBox-negra.jpg",
         "category": "consolas",
@@ -111,7 +111,7 @@
     {
         "id": 13,
         "name": "Enhanced Wired Controller Para Xbox Series X/S PowerA Metallic Arctic Camo",
-        "price": 21.199,
+        "price": 21199,
         "description": "¡Toda la atención en el juego! Este control alámbrico marca Power A te permite jugar en tu consola Xbox One y Xbox Series S y X como todo un profesional. Es un control con diseño ergonómico; controles con agarres de goma para manipular el juego. cuenta con un diseño sensacional en color gris con vistas tipo camufladas; mientras que el cable de su conexión te permite jugar por tiempo ilimitado. Juega por más tiempo sin restricciones. Tu nuevo control alámbrico Power A te espera en línea.¡Genial!",
         "img":"joy-xbox.jpg",
         "category": "joystick",
@@ -120,7 +120,7 @@
     {
         "id": 14,
         "name": "Joy-Con Nintendo Switch Neon Violeta Y Naranja",
-        "price": 49.999,
+        "price": 49999,
         "description": "El versátil Joy-Con ofrece múltiples formas sorprendentes para que los jugadores se diviertan Dos joy-con se pueden utilizar de forma independiente en cada mano o juntos como un controlador de juego cuando se conecta al agarre Joy-Con (se vende por separado) También se pueden conectar a la consola principal para su uso en modo portátil o ser compartidos con amigos para disfrutar de acción de dos jugadores en juegos compatibles Cada joy-con tiene un conjunto completo de botones y puede actuar como un controlador independiente y cada uno incluye un acelerómetro y sensor de movimiento giroscopio, haciendo posible el control de movimiento independiente izquierdo y derecho",
         "img":"joy-con.jpg",
         "category": "joystick",
@@ -129,7 +129,7 @@
     {
         "id": 15,
         "name": "Headset Gamer HyperX Cloud Flight PS4/PS5",
-        "price": 30.999,
+        "price": 30999,
         "description": "Capacidad inalámbrica avanzada con batería de larga duración. Comodidad exclusiva de HyperX. Almohadillas que giran 90 grados. Compatibles con PS5™ y PS4™",
         "img":"headset-ps4.jpg",
         "category": "accesorios",
@@ -138,7 +138,7 @@
     {
         "id": 16,
         "name": "Volante PS4/PC Thrustmaster T150 Pro Force Feedback",
-        "price": 129.999,
+        "price": 129999,
         "description": "El volante Thrustmaster T150 Pro Force Feedback está especialmente diseñado para PC y Playstation 3 y 4. Además, dispone de botones oficiales para PS4 (PS/SHARE/OPTIONS). Con una realimentación de fuerza de 1080° y la tecnología TouchSense Immersion, el T150 Pro te garantiza un entretenimiento total para vivir a fondo los juegos de conducción de última generación. Además, dispone de tres pedales totalmente ajustables.",
         "img":"volante-ps4.jpg",
         "category": "accesorios",
