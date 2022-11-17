@@ -16,7 +16,7 @@ const ItemDetail = ({product}) =>{
         <>
             <div className="card cardDetail">
                 <div className="imgDetail">
-                    <img src={`../img/${product.img}`} className="card-img-top" alt="..." />
+                    <img src={product.img} className="card-img-top" alt="..." />
                 </div>
                 <div className="cardInfo">
                     <h5 className="card-title">{product.name}</h5>

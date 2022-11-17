@@ -1,5 +1,5 @@
 
-import {queryBdd} from '../../Assets/funtions'
+import {getProduct} from '../../Assets/firebase'
 import { useState, useEffect } from "react";
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom';
@@ -13,13 +13,13 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     if (category){
-      queryBdd('../Data/bbdd.json').then(product => {
+      getProduct().then(product => {
         const productosFiltrados = product.filter(prod => prod.category === category)
         const cardProduct = <ItemList product = {productosFiltrados}/>
         setProduct(cardProduct)
       })
     }else{
-      queryBdd('./Data/bbdd.json').then(product => {
+      getProduct().then(product => {
         const cardProduct = <ItemList product = {product}/>
         setProduct(cardProduct)
       } )

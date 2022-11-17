@@ -13,7 +13,7 @@ const ItemDetailContainer = () =>{
             const prod = productos.find(prodBBDD => prodBBDD.id === Number(id))
            setProduct(prod)
         })
-   },[])
+   },[id])
 
     return(
       <div className="containerMain">

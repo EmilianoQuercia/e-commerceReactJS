@@ -4,7 +4,7 @@ import './item.css'
 const Item = ({prod}) => {
     return (
         <div className="card m-3 cardContainer" style={{ width: "18rem" }} >
-        <img src={`../img/${prod.img}`} className="card-img-top" alt="..." />
+        <img src={prod.img} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title ">{prod.name}</h5>
           <h5 className="card-text price" >Precio ${prod.price}</h5>
