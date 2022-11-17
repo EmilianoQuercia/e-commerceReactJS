@@ -37,10 +37,9 @@ const getProduct = async () =>{
     const items = product.docs.map(prod=> {return {...prod.data(), id:prod.id}})
     return items
 }
-const getOnlyProduct = async () =>{
-    const product = await getDoc(collection(dataBase,'productos'))
-    const item = product.docs.find(prod=> prod.id === doc.id)
-    return item
+const getOnlyProduct = async (id) =>{
+    const product = await getDoc(doc(dataBase,'productos',id))
+    return product.data()
 }
 
 export {loadBD, getProduct, getOnlyProduct}

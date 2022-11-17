@@ -1,4 +1,4 @@
-import { loadBD, } from "./firebase";
+import { loadBD, getOnlyProduct } from "./firebase";
 
 // Esta funcion lo que hace es consultar mi base de datos
 
@@ -8,6 +8,6 @@ export const queryBdd = async (route) => {
     
     return data
 }
-
+// getOnlyProduct('59eCAIVsLSiOViZT42xT').then(data=> console.log(data))
 //loadBD()
 

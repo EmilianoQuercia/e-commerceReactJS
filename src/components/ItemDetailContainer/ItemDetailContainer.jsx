@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
-import { queryBdd } from "../../Assets/funtions"
+import { getOnlyProduct } from "../../Assets/firebase"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
 const ItemDetailContainer = () =>{
@@ -9,9 +9,9 @@ const ItemDetailContainer = () =>{
     const {id} = useParams()
 
    useEffect(()=>{
-        queryBdd('../Data/bbdd.json').then(productos => {
-            const prod = productos.find(prodBBDD => prodBBDD.id === Number(id))
-           setProduct(prod)
+        getOnlyProduct(id).then(productos => {
+            // const prod = productos.find(prodBBDD => prodBBDD.id === Number(id))
+           setProduct(productos)
         })
    },[id])
 
