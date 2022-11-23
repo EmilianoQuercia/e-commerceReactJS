@@ -8,6 +8,7 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
 import CheckOut from './CheckOut/CheckOut';
+import Error404 from './Error/Error404';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
                     <Route path='/category/:category' element={<ItemListContainer/>}/>
                     <Route path='/Cart' element={<Cart/>}/>
                     <Route path='/checkout' element={<CheckOut/>}/>
+                    <Route path='*' element={<Error404/>}/>
                   </Routes>
                 </CartContextProvider>
               </BrowserRouter>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { getOnlyProduct } from "../../Assets/firebase"
+import Error404 from "../Error/Error404"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
 const ItemDetailContainer = () =>{
@@ -10,15 +11,20 @@ const ItemDetailContainer = () =>{
 
    useEffect(()=>{
         getOnlyProduct(id).then(productos => {
-            // const prod = productos.find(prodBBDD => prodBBDD.id === Number(id))
            setProduct(productos)
         })
    },[id])
 
     return(
+      <>
+      {
+        product !== 0 ?
       <div className="containerMain">
         <ItemDetail product={product}/>
       </div>
+      : <Error404/>
+      }
+      </>
     )
 }
 

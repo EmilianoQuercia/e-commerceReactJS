@@ -39,7 +39,32 @@ const getProduct = async () =>{
 }
 const getOnlyProduct = async (id) =>{
     const product = await getDoc(doc(dataBase,'productos',id))
-    return product.data()
+    let item 
+    if (product.data()){
+      item = {...product.data(), id: product.id}
+    }else{
+        item = 0
+    }
+    return item
 }
 
-export {loadBD, getProduct, getOnlyProduct}
+const createTicket = async (client, total, date) =>{
+    const ticket = await addDoc(collection(dataBase, 'OrdenDeCompra'),{
+        fecha: date,
+        nombre: client.nombre,
+        Email: client.email,
+        dni: client.dni,
+        tel: client.tel,
+        precioTotal: total
+    })
+    return ticket
+}
+
+const getTicket = async (id) =>{
+    const item = await getDoc(doc(dataBase, 'OrdenDeCompra', id))
+    const ticket = {...item.data(), id:item.id}
+    return ticket
+
+}
+
+export {loadBD, getProduct, getOnlyProduct, createTicket, getTicket}

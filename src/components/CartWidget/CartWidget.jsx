@@ -13,9 +13,11 @@ const CartWidget = () => {
         <Link to='/Cart'>
             <button type="button" className="btn btn-secondary position-relative mx-3">
                 <img className='imgCarrito' src= '../img/carrito-de-compras.png' alt="" />
+                {getItemQuantity()>0 &&   
                 <span className="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-danger">
                 {getItemQuantity()}
                 </span>
+                }
             </button>
         </Link>
       
