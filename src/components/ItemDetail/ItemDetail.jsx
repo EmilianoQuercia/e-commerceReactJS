@@ -23,7 +23,7 @@ const ItemDetail = ({product}) =>{
                         <p className="card-text">Precio: ${product.price}</p>
                     <p className="card-text">Stock: {product.stock}</p>
                     <ItemCount stock={product.stock} onAdd={onAdd}/>
-                    <Link to={'/checkout'}><button className="btn btn-success">Finalizar Compra</button></Link> 
+                    {/* <Link to={'/checkout'}><button className="btn btn-success">Finalizar Compra</button></Link>  */}
                 </div>
             </div>
             <div className="descDetail">
